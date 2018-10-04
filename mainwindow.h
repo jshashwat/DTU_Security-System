@@ -51,6 +51,8 @@ private slots:
 
     void on_pushButton_7_clicked();
 
+    void on_pushButton_10_clicked();
+
 private:
     cv::VideoCapture capWebcam;
     cv::Mat matOriginal;

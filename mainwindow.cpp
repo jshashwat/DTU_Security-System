@@ -264,3 +264,8 @@ void MainWindow::on_pushButton_7_clicked()
     //QString st= ui->txtXYRadius_2->toPlainText();
     //myfile<<st;
 }
+
+void MainWindow::on_pushButton_10_clicked()
+{
+    //Save
+}

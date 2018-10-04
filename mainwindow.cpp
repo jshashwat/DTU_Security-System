@@ -77,7 +77,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
+// function for detection of cars
 Mat MainWindow:: detect(Mat frame)
 {
     vector<Rect> faces;
@@ -215,6 +215,7 @@ void MainWindow::on_pushButton_5_clicked()
 
 }
 
+// for printing car details
 void MainWindow::on_pushButton_9_clicked()
 {
       myfile.open ("database.txt");
